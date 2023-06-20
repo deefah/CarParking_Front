@@ -1,0 +1,68 @@
+.flex{
+    display: flex;
+    width: 100%;
+    margin-top: 15px;
+  
+}
+
+body, html{
+    margin: 0;
+    background-color: slategray;
+}
+
+
+
+
+.reg{
+        background-color: rgb(109, 177, 216);
+        width: 50%;
+        margin-top: 69px;
+        margin-left: 290px;
+        height: 480px;
+        box-shadow: 0 0 30px  black;
+    }
+
+
+   .btn{
+        margin-top: 15px;
+        color:white;
+        float: right;
+        margin-right: 30px;
+    
+    }
+
+    .link{
+        margin-left: 30px;
+    }
+
+    .form-control{
+        margin-top: 10px;
+        margin-left: 30px;
+        /* height: 25px; */
+        width: 300px;
+    }
+
+
+    label{
+        margin-left: 60px;
+        margin-top: 20px;
+    }
+
+    .password{
+        margin-left: 60px;
+    }
+
+    .mobile{
+        margin-left: 15px;
+    }
+
+    .lname{
+        margin-left: 55px;
+    }
+
+    .fname{
+        margin-left: 55px;
+    }
+    .id{
+        margin-left: 69px;
+    }

@@ -1,0 +1,111 @@
+.flex{
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+}
+.quick{
+    background-color: rgb(109, 177, 216);
+    /* left: 0; */
+    margin-top: 50px;
+    padding-top: 70px;
+    width: 190px;
+    /* margin-left: 20px; */
+
+}
+body, html{
+    margin: 0;
+    background-color: slategray;
+}
+h3{
+    margin-left: 25px;
+    color: black(11, 149, 208);
+}
+h2{
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+
+
+.reg{
+        background-color: rgb(109, 177, 216);
+        width: 50%;
+        margin-top: 60px;
+        margin-left: 200px;
+        height: 480px;
+        box-shadow: 0 0 30px  black;
+    }
+
+    /* .input1{
+        margin-top: 5px;
+        margin-left: 10px;
+        /* height: 25px; */
+        /* width: 50%; */
+    /* } */
+
+    /* .input2{
+        margin-top: 10px;
+        margin-left: 90px;
+        height: 25px;
+        width: 50%;
+    }
+
+    .input3{
+        margin-top: 10px;
+        margin-left: 60px;
+        height: 25px;
+        width: 50%;
+    }
+
+    .input4{
+        margin-top: 10px;
+        margin-left: 102px;
+        height: 25px;
+        width: 50%;
+    }
+    .input5{
+        margin-top: 10px;
+        margin-left: 50px;
+        height: 25px;
+        width: 50%;
+    }  */
+
+   .btn{
+        margin-top: 5px;
+        color:white;
+        float: right;
+        margin-right: 30px;
+    
+    }
+
+    .link{
+        margin-left: 30px;
+    }
+
+    .form-control{
+        margin-top: 10px;
+        margin-left: 30px;
+        /* height: 25px; */
+        width: 300px;
+    }
+
+    label{
+        margin-left: 60px;
+        margin-top: 20px;
+    }
+
+    .password{
+        margin-left: 60px;
+    }
+
+    .mobile{
+        margin-left: 15px;
+    }
+
+    .lname{
+        margin-left: 55px;
+    }
+
+    .fname{
+        margin-left: 55px;
+    }
