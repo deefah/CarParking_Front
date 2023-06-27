@@ -1,0 +1,25 @@
+.add{
+    background-color: rgb(109, 177, 216);
+    width: 50%;
+    margin-top: 150px;
+    margin-left: 350px;
+    height: 400px;
+    box-shadow: 0 0 30px  black;
+}
+
+.password{
+    margin-top: 50px;
+}
+
+.password1{
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+label{
+    margin-top: 70px;
+}
+
+/* .card{
+    height: 350px;
+} */

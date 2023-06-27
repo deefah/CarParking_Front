@@ -1,26 +1,23 @@
-.login{
+.flexlog{
     background-color: rgb(109, 177, 216);
     width: 30%;
-    margin-top: 60px;
+    margin-top: 80px;
     margin-left: 450px;
-    height: 450px;
+    height: 490px;
     box-shadow: 0 0 30px  black;
    
 }
 
-.form-control{
+.form-control {
     margin-top: 10px;
-    margin-left: 30px;
+    margin-left: 100px;
     /* height: 25px; */
     width: 300px;
 }
 
-.input2{
-    margin-top: 30px;
-    margin-left: 50px;
-    height: 25px;
-    width: 70%;
-}
+
+
+
 
 .check{
     margin-top: 40px;
@@ -55,20 +52,20 @@ h4{
     width: 100%;
     left: 0;
 }
-.flex{
+/* .flex{
 display: flex;
 width: 100%;
 margin-top: 20px;
 }
 .quick{
 background-color: rgb(109, 177, 216);
-/* left: 0; */
+left: 0;
 margin-top: 50px;
 padding-top: 70px;
 width: 190px;
-/* margin-left: 20px; */
+margin-left: 20px;
 
-}
+} */
 body, html{
 margin: 0;
 

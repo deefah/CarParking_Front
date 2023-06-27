@@ -16,11 +16,35 @@ function App() {
   return (
     <div>
     <BrowserRouter> 
+    <Menu/>
+    {/* <ActionDriver/> */}
+
+  {/* <Register/> */}
+
+
+  
    
-        {/* <Menu/> */}
+    
 
               <Routes>
-                <Route exact path='/' element={<Login/>}/>
+
+                {/* <Route path='/' element={<Actions/>}/>
+                <Route path='/addcars' element={<Addcars/>}/>
+                <Route path='/edit' element={<Edit/>}/>
+                <Route path='/action' element={<Actions/>}/>
+                <Route path='/updatecars/:plateNo' element={<Updatecars/>}/>
+                <Route path='/actionsCar' element={<Actions/>}/>  */}
+
+
+              <Route path='/' element={<ActionDriver/>}/>
+
+              <Route path='/register' element={<Register/>}/>
+
+              <Route path='/actiondriver' element={<ActionDriver/>}/>
+              <Route path='/editdriver/:driverID' element={<EditDriver/>}/>
+
+
+                {/* <Route exact path='/' element={<Login/>}/>
                 <Route path='/login' element={<Login/>}/>
                 
                 <Route path='/register' element={<Register/>}/>
@@ -33,7 +57,7 @@ function App() {
 
                 <Route path='/addcars' element={<Addcars/>}/>
                 <Route path='/updatecars/:plateNo' element={<Updatecars/>}/>
-                <Route path='/actionsCar' element={<Actions/>}/>
+                <Route path='/actionsCar' element={<Actions/>}/>  */}
 
             </Routes>  
       

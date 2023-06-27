@@ -6,7 +6,7 @@ function Reserve() {
   return (
     <div>
 
-<div class="reg">
+<div class="regreserve">
 
 <h5 >
     Make reservation for car parking space
@@ -52,7 +52,7 @@ function Reserve() {
     </div>
 </div>
 
-<br/>
+{/* <br/> */}
 <Link to={"../edit"} type="button" class="btn btn-primary">SAVE</Link>
 <Link to={"/"}  type="button" class="btn btn-outline-dark"> CANCEL</Link>
 

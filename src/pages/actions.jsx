@@ -21,6 +21,9 @@ function Actions() {
     }
   };
 
+
+  
+
   const deletehandleSubmit = (plateNo) => {
     const popMsg = window.confirm('Are you sure you want to delete?');
 
@@ -37,13 +40,13 @@ function Actions() {
 
   return (
     <div className="container-lg">
-      <div className="table-responsive">
+      {/* <div className="table-responsive"> */}
         <div className="table-wrapper">
           <div className="table-title">
             <div className="row">
               <div className="col-sm-8">
                 <h2>
-                  Driver<b>Details</b>
+                  Car<b>Details</b>
                 </h2>
               </div>
               <div className="col-sm-4">
@@ -91,7 +94,7 @@ function Actions() {
             </tbody>
           </table>
         </div>
-      </div>
+      {/* </div> */}
     </div>
   );
 }

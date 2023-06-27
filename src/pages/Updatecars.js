@@ -66,7 +66,7 @@ import "./updatecars.css"
            <div className='flex'>
          
          <div className='password'>
-           <input  value={data.carNumber} onChange={event=>setData({...data,carNumber: event.target.value})} className='form-control' type="text" placeholder="       Enter yourcar Number here"/>
+           <input  value={data.carNumber} onChange={event=>setData({...data,carNumber: event.target.value})} className='form-control' type="text" placeholder="       Enter your Car Number here"/>
            </div>
        </div>
            </div>

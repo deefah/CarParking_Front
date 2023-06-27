@@ -1,9 +1,9 @@
-.reg{
+.regreserve{
     background-color: rgb(109, 177, 216);
     width: 50%;
-    margin-top: 70px;
+    margin-top: 60px;
     margin-left: 350px;
-    height: 480px;
+    height: 560px;
     box-shadow: 0 0 30px  black;
 }
 

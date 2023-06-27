@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
   return (
     <div>
 
-<div className="flex">
+<div className="flexlog">
                         {/* <div className="quick">
                            <h3> QUICK LINKS</h3>
                            <br/> 
@@ -32,8 +32,8 @@ import { Link } from 'react-router-dom'
 
                            
                         
-                        <input type="text" placeholder="      Enter your Username" className="input1" class="form-control"/> <br/>
-                            <input type="text" placeholder="     Enter your Password" className="input2" class="form-control"/> 
+                        <input style={{marginLeft: '4rem'}} type="text" placeholder="      Enter your Username"  className="form-control input10"/> <br/>
+                            <input style={{marginLeft: '4rem'}} type="text" placeholder="     Enter your Password"  className="form-control input10"/> 
                         <input type="checkbox" className="check"/> Remember me! <br/> 
 
                             <a className="forgotpass" href="#" > forgot password?</a> <br/><br/>
