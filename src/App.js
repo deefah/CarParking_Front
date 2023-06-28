@@ -36,12 +36,17 @@ function App() {
                 <Route path='/actionsCar' element={<Actions/>}/>  */}
 
 
-              <Route path='/' element={<ActionDriver/>}/>
-
+              {/* <Route path='/' element={<ActionDriver/>}/> */}
+              <Route exact path='/' element={<Login/>}/>
               <Route path='/register' element={<Register/>}/>
-
               <Route path='/actiondriver' element={<ActionDriver/>}/>
               <Route path='/editdriver/:driverID' element={<EditDriver/>}/>
+
+              <Route path='/addcars' element={<Addcars/>}/>
+              <Route path='/edit' element={<Edit/>}/>
+              <Route path='/action' element={<Actions/>}/>
+              <Route path='/updatecars/:plateNo' element={<Updatecars/>}/>
+              <Route path='/actionsCar' element={<Actions/>}/> 
 
 
                 {/* <Route exact path='/' element={<Login/>}/>
