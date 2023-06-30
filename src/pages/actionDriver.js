@@ -66,8 +66,8 @@ function ActionDriver() {
                             <th>S/N</th>
                             <th>first name</th>
                             <th>last name</th>
-                            <th>car number</th>
                             <th>car type</th>
+                            <th>car number</th>
                             <th>phone number</th>
                             <th>Actions</th>
                         </tr>

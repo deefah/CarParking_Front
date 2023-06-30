@@ -47,10 +47,10 @@ import axios from 'axios';
                  <form onSubmit={handlerSubmit}>
     
                 <h2 >
-                   Edit Driver
+                   EditDriver
                 </h2>
 
-              
+              <br/> <br/>
     
                 <div className='flexreg'>
                   <div>
@@ -60,6 +60,7 @@ import axios from 'axios';
                     <input class="input1" value={data.firstName} onChange={event=>setData({...data,firstName:event.target.value})}  className='form-control' type="text" placeholder="       Enter your first name here"/>
                     </div>
                 </div>
+                <br/>
               
                 <div className='flexreg'>
                   <div>
@@ -81,7 +82,7 @@ import axios from 'axios';
                     </div>
                 </div>
 
-                <div className='flexreg'>
+                {/* <div className='flexreg'>
                   <div>
                     <label className='labpas'  style={{marginTop:'4rem'}}>  Car Number:</label>
                   </div>
@@ -99,7 +100,7 @@ import axios from 'axios';
                   <div>
                     <input class="input1"  style={{marginLeft: '7rem'}} className='form-control' type="text" placeholder="       Enter your car type here"/>
                     </div>
-                </div>
+                </div> */}
                 
               
                 {/* <div className='flexreg'>

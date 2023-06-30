@@ -8,12 +8,12 @@ import { Link } from 'react-router-dom'
     <div>
 
 <div className="flexlog">
-                        {/* <div className="quick">
+                        {/* <div className="quickli">
                            <h3> QUICK LINKS</h3>
                            <br/> 
 
-                           <a className='link' href="#" >Home Page</a> <br/> <br/>  <br/>
-                           <Link to={"/"} className='link'  >Login</Link>
+                           <a className='link' href="#" >About Cars</a> <br/> <br/>  <br/>
+                           <Link  className='link'  >About drivers</Link>
                         </div> */}
                
 
@@ -38,12 +38,12 @@ import { Link } from 'react-router-dom'
 
                             <a className="forgotpass" href="#" > forgot password?</a> <br/><br/>
 
-                            <Link to={"addcars"} type="button" class="btn btn-primary">Login</Link> <br/> <br/>
+                            <Link to={"register"} type="button" class="btn btn-primary">Login</Link> <br/> <br/>
 
 
                             <span className='account'> don't have an account?</span>
 
-                            <Link to={"register"} className='register1'   >Register</Link>
+                            <Link to={"addcars"} className='register1'   >Register car</Link>
 
                         </div>
             </div>
