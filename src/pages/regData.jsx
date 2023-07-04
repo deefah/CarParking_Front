@@ -17,7 +17,8 @@ function RegData() {
       
     }
 
-    alert('REGISTERED')
+    alert('REGISTERED');
+    navigate("/")
     
     return true;
   }
