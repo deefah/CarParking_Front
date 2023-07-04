@@ -39,7 +39,7 @@ import './addcar.css'
       <label for="" >  Car Type:</label>
     </div>
     <div className='password1'>
-      <input class="input1" value={inputCarType} onChange={event=>setCarType(event.target.value)} className='form-control' type="text" placeholder="       Enter your Car Type here"/>
+      <input required class="input1" value={inputCarType} onChange={event=>setCarType(event.target.value)} className='form-control' type="text" placeholder="       Enter your Car Type here"/>
       </div>
   </div>
 
@@ -48,7 +48,7 @@ import './addcar.css'
       <label for="" >  Car Number:</label>
     </div>
     <div className='password'>
-      <input class="input1" value={inputCarNumber} onChange={event=>setcarNumber(event.target.value)} className='form-control' type="text" placeholder="       Enter your Car Number here"/>
+      <input required class="input1" value={inputCarNumber} onChange={event=>setcarNumber(event.target.value)} className='form-control' type="text" placeholder="       Enter your Car Number here"/>
       </div>
   </div>
   <br/>

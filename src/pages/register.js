@@ -79,7 +79,7 @@ const handleOptionChange = event => {
                 <label for="" className='lab'>  First Name:</label>
               </div>
               <div className='fname'>
-                <input class="input1" value={inputfname} onChange={event=>setfirstName(event.target.value)} className='form-control' type="text" placeholder="       Enter your first name here"/>
+                <input class="input1" required value={inputfname} onChange={event=>setfirstName(event.target.value)} className='form-control' type="text" placeholder="       Enter your first name here"/>
                 </div>
             </div>
           
@@ -88,7 +88,7 @@ const handleOptionChange = event => {
                 <label for="" className='lab'>  Last Name:</label>
               </div>
               <div className='lname'>
-                <input class="input1" value={inputlname} onChange={event=>setlastName(event.target.value)} className='form-control' type="text" placeholder="       Enter your last name here"/>
+                <input class="input1" required value={inputlname} onChange={event=>setlastName(event.target.value)} className='form-control' type="text" placeholder="       Enter your last name here"/>
                 </div>
             </div>
 
@@ -99,7 +99,7 @@ const handleOptionChange = event => {
                 <label className='lab' style={{marginTop:'2rem'}} >  Mobile Number:</label>
               </div>
               <div className='mobile'>
-                <input class="input1" value={inputmobile} onChange={event=>setmobileNo(event.target.value)} style={{marginTop:'2rem'}}  className='form-control' type="text" placeholder="       Enter your mobile number here"/>
+                <input required class="input1" value={inputmobile} onChange={event=>setmobileNo(event.target.value)} style={{marginTop:'2rem'}}  className='form-control' type="text" placeholder="       Enter your mobile number here"/>
                 </div>
             </div>
 
@@ -109,7 +109,7 @@ const handleOptionChange = event => {
                 <label className='labpas'  style={{marginTop:'4rem'}}>  plateNo:</label>
               </div>
               <div className='password'>
-              <select value={selectedOption} onChange={handleOptionChange} className='form-control'>
+              <select value={selectedOption} onChange={handleOptionChange} className='form-control' required>
                <option value="" >Select an option</option>
                {options.map(option => (
               <option  key={option.plateNo} value={option.plateNo} >

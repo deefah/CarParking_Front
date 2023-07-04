@@ -11,6 +11,7 @@ import EditDriver from './pages/editDriver';
 import ActionDriver from './pages/actionDriver';
 import Addcars from './pages/Addcars';
 import Updatecars from './pages/Updatecars';
+import RegData from './pages/regData';
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
 
 
               {/* <Route path='/' element={<ActionDriver/>}/> */}
+              
               <Route exact path='/' element={<Login/>}/>
               <Route path='/register' element={<Register/>}/>
               <Route path='/actiondriver' element={<ActionDriver/>}/>
@@ -47,6 +49,7 @@ function App() {
               <Route path='/action' element={<Actions/>}/>
               <Route path='/updatecars/:plateNo' element={<Updatecars/>}/>
               <Route path='/actionsCar' element={<Actions/>}/> 
+              <Route path='/reg' element={<RegData/>}/>
 
 
                 {/* <Route exact path='/' element={<Login/>}/>
