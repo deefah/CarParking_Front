@@ -45,7 +45,7 @@ import './addcar.css'
 
   <div className='flex'>
     <div>
-      <label for="" >  Car Number:</label>
+      <label for="" >  Plate Number:</label>
     </div>
     <div className='password'>
       <input required class="input1" value={inputCarNumber} onChange={event=>setcarNumber(event.target.value)} className='form-control' type="text" placeholder="       Enter your Car Number here"/>

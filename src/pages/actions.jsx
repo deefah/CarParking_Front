@@ -61,9 +61,9 @@ function Actions() {
             <thead>
               <tr>
                 <th>S/N</th>
-                <th>plate number</th>
-                <th>Car name</th>
                 <th>Car Number</th>
+                <th>Car name</th>
+                <th>Plate Number</th>
                 <th>Actions</th>
               </tr>
             </thead>

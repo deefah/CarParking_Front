@@ -10,15 +10,15 @@ import { Link } from 'react-router-dom'
 
 
 
-<div class="main">
+<div className="main">
    
-   <div class="nav">
+   <div className="nav">
 
        <ul>
         
            {/* <li>Home</li> */}
-        <li>  <Link to={"/addcars"}  style={{color:'white'}}>Cars</Link> </li>
-         <li>  <Link to={"/register"} style={{color:'white'}}>Drivers</Link></li>
+        <li>  <Link to={"/actionsCar"}  style={{color:'white'}}>Cars</Link> </li>
+         <li>  <Link to={"/actiondriver"} style={{color:'white'}}>Drivers</Link></li>
            <li><Link to={"/"} style={{color:'white'}}>Logout</Link></li>
        </ul>
    </div>
